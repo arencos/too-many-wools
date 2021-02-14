@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "toomanywools",
+  "version": "${version}",
+
+  "name": "TooManyWools",
+  "description": "Add a lot of wools to spice up your builds!",
+  "authors": [
+    "Aren (https://github.com/arencos)"
+  ],
+  "contact": {
+    "homepage": "https://github.com/arencos",
+    "sources": "https://github.com/arencos"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/toomanywools/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.aren.toomanywools.TooManyWools"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
